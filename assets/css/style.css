@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,700');
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 1.6em;
+  display: block;
+}
+
+.number {
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+.photo {
+  margin-right: 32px;
+  width: 139px;
+  height: 140px;
+
+  overflow: hidden;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+}
